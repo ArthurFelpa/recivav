@@ -1,0 +1,34 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Untitled</title>
+      <link rel="manifest" href="/manifest.json">
+      <meta name="theme-color" content="#4CAF50">
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(() => console.log('Service Worker registrado'))
+      .catch(err => console.error('Erro no SW:', err));
+  }
+</script>
+
+
+<link rel="icon" type="image/png" href="/assets/favicon-96x96-Dw5LL9w-.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon-Ci9rPGG5.svg" />
+<link rel="shortcut icon" href="/assets/favicon-DXB1w6Fi.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-C8avT0lF.png" />
+<meta name="apple-mobile-web-app-title" content="ReciVAV" />
+<link rel="manifest" href="/assets/site-Bvgu8rpx.webmanifest" />
+      <script type="module" crossorigin src="/assets/index-8_wHreZa.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-br6jes7i.css">
+    <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+    <body>
+      <div id="root"></div>
+    </body>
+  </html>
+  
